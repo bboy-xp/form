@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.listContainer {
+  margin: 3vw 5vw;
+  width: 80vw;
+  flex-basis: 75%;
+  overflow: scroll;
+}
+.title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vw;
+  width: 100%;
+  height: 7vh;
+  margin-bottom: 2vh;
+}
+.inputQuestion {
+  font-size: 5vw;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+.choiceStyle {
+  margin-bottom: 2vw;
+}
+.elementContainer {
+  margin-bottom: 3vw;
+}
+.stepContainer {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* margin-top: -5vh; */
+  /* line-height: 20vh; */
+  position: relative;
+  top: -4vh;
+}

@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vw;
+  width: 100%;
+  height: 7vh;
+  border-bottom: 1px solid #cfbebe;
+  margin-bottom: 2vh;
+}
+.btnStyle {
+  background-color: #ffc400;
+  width: 60vw;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3vw;
+  margin: 3vh;
+  letter-spacing: 4px;
+  font-size: 4vw;
+}
+.elementList {
+  flex-basis: 30%;
+  overflow: scroll;
+}
+.connectFormContainer {
+  margin-bottom: 5vw;
+}

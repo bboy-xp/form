@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7vw;
+  width: 100%;
+  height: 7vh;
+  border-bottom: 1px solid #cfbebe;
+  margin-bottom: 2vh;
+}
+.boxContainer {
+  flex-basis: 20%;
+}
+.inputBox2 {
+  margin-bottom: 10vw
+}
+.inputText {
+  font-size: 4vw;
+  margin-right: 4vw;
+}
+.showOptionContainer {
+  flex-basis: 40%;
+  overflow: scroll;
+}
